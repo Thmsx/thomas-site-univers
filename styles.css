@@ -1,0 +1,57 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+header {
+    background-color: #333;
+    color: white;
+    padding: 20px 0;
+}
+
+h1 {
+    margin: 0;
+}
+
+.universe-container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin: 20px;
+}
+
+.universe-card {
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: transform 0.2s;
+    width: 250px;
+    height: 150px;
+    margin: 20px;
+    cursor: pointer;
+    overflow: hidden;
+}
+
+.universe-card:hover {
+    transform: scale(1.05);
+}
+
+.universe-card img {
+    width: 200%;
+    height: 150;
+    border-radius: 10px;
+}
+
+.universe-card h2 {
+    margin: 0;
+    padding: 15px;
+    font-size: 1.5em;
+    background-color: #f4f4f4;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    box-sizing: border-box;
+}
