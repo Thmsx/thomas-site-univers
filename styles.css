@@ -7,9 +7,9 @@ body {
 }
 
 header {
-    background-color:#1a0642(0, 0%, 20%, 0.367);
+    background-color:#1a0642;
     color: white;
-    padding: 20% 0;
+    padding: 25px 0;
 }
 
 h1 {
